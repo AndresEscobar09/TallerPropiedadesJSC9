@@ -19,8 +19,8 @@ function Libro(titulo, autor) {
 
 }
 
-const libro1 = new Libro("El Quijote", "Miguel de Cervantes");
-const libro2 = new Libro("Cien Años de Soledad", "Gabriel García Márquez");
+const libro1 = new Libro("El Arte de la Guerra", "Sun Tzu");
+const libro2 = new Libro("Meditaciones", "Marco Aurelio");
 
 console.log(`Libro 1: ${libro1.titulo} por ${libro1.autor}`);
 console.log(`Libro 2: ${libro2.titulo} por ${libro2.autor}`);
